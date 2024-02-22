@@ -1,6 +1,6 @@
 "use client";
 import { TypewriterEffectSmooth } from "./../components/ui/typewriter-effect";
-export function TypewriterEffectSmoothDemo() {
+export default function TypewriterEffectSmoothDemo() {
   const words = [
     {
       text: "Build",
