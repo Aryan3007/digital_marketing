@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { InfiniteMovingCards } from "./../components/ui/infinite-moving-cards";
 
-export function InfiniteMovingCardsDemo() {
+export default function InfiniteMovingCardsDemo() {
     return (
         <div className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
             <h1 className="text-3xl my-4">Testimonials</h1>

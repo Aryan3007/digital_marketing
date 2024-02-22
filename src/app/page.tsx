@@ -1,12 +1,12 @@
 // import { PinContainer } from "@/components/ui/3d-pin";
 import Navbar from "@/components/ui/Navbar";
 // import Cursor from "@/components/ui/Cursor";
-import { AnimatedPinDemo } from "@/pages/AnimatedPinDemo";
+import  AnimatedPinDemo  from "@/pages/AnimatedPinDemo";
 import CardHoverEffectDemo from "@/pages/CardHoverEffectDemo";
 // import { AnimatedTooltipPreview } from "@/pages/AnimatedTooltipPreview";
 import HeroParallaxDemo from "@/pages/HeroParallaxDemo";
-import { InfiniteMovingCardsDemo } from "@/pages/InfiniteMovingCardsDemo";
-import { SparklesPreview } from "@/pages/SparklesPreview";
+import  InfiniteMovingCardsDemo  from "@/pages/InfiniteMovingCardsDemo";
+import SparklesPreview  from "@/pages/SparklesPreview";
 // import NavbarDemo from "@/pages/NavbarDemo";
 import TypewriterEffectSmoothDemo from "@/pages/TypewriterEffectSmoothDemo";
 

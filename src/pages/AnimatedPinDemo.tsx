@@ -2,7 +2,7 @@
 import React from "react";
 import { PinContainer } from "./../components/ui/3d-pin";
 
-export function AnimatedPinDemo() {
+export default function AnimatedPinDemo() {
     return (
         <>
             <h1 className="text-center my-12 text-3xl">What We Are Offering</h1>
