@@ -3,24 +3,25 @@ import { TypewriterEffectSmooth } from "./../components/ui/typewriter-effect";
 export default function TypewriterEffectSmoothDemo() {
   const words = [
     {
-      text: "Build",
+      text: "Create",
     },
     {
-      text: "awesome",
+      text: "Awesome",
     },
     {
-      text: "apps",
+      text: "Makreting",
     },
     {
       text: "with",
+
     },
     {
-      text: "Aceternity.",
-      className: "text-blue-500 dark:text-blue-500",
+      text: "Growthify.",
+      className: "text-black dark:text-white",
     },
   ];
   return (
-    <div className="flex flex-col items-center justify-center h-[40rem]  ">
+    <div className="flex flex-col items-center justify-center my-12  ">
       <p className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base  ">
         The road to freedom starts from here
       </p>
