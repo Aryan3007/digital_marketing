@@ -2,7 +2,7 @@
 // next.config.js
 const nextConfig = {
     images: {
-      domains: ['aceternity.com', 'images.unsplash.com'],
+      domains: ['aceternity.com', 'images.unsplash.com', 'picsum.photos'],
     },
   };
 export default nextConfig;

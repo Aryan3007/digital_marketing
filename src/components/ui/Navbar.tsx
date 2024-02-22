@@ -1,5 +1,6 @@
 "use client"
 import Image from "next/image";
+import Link from "next/link";
 import React, { useState } from "react";
 
 const Navbar: React.FC = () => {
@@ -16,7 +17,7 @@ const Navbar: React.FC = () => {
         >
             <div className="container px-12 py-4 mx-auto md:flex md:justify-between items-center md:items-center">
                 <div className="flex items-center justify-between">
-                    <h1 className="text-3xl font-semibold text-white">Growthify</h1>
+                    <h1 className="text-3xl font-semibold text-white">{`Dev</>Hub`}</h1>
 
                     {/* Mobile menu button */}
                     <div className="flex lg:hidden">
@@ -70,31 +71,31 @@ const Navbar: React.FC = () => {
                 >
                     <div className="flex flex-col font-bold md:flex-row md:mx-6">
                         <a
-                            className="my-2 text-gray-300 transition-colors duration-300 transform  hover:text-blue-500  md:mx-4 md:my-0"
+                            className="my-2 text-gray-300 transition-colors duration-300 transform  hover:text-[#a756f7]  md:mx-4 md:my-0"
                             href="#"
                         >
                             Home
                         </a>
-                        <a
-                            className="my-2 text-gray-300 transition-colors duration-300 transform hover:text-blue-500  md:mx-4 md:my-0"
-                            href="#"
+                        <Link
+                            className="my-2 text-gray-300 transition-colors duration-300 transform hover:text-[#a756f7]  md:mx-4 md:my-0"
+                            href="/projects"
                         >
-                            Shop
-                        </a>
+                            Projects
+                        </Link>
                         <a
-                            className="my-2 text-gray-300 transition-colors duration-300 transform  hover:text-blue-500  md:mx-4 md:my-0"
+                            className="my-2 text-gray-300 transition-colors duration-300 transform  hover:text-[#a756f7]  md:mx-4 md:my-0"
                             href="#"
                         >
                             About
                         </a>
                         <a
-                            className="my-2 text-gray-300 transition-colors duration-300 transform  hover:text-blue-500  md:mx-4 md:my-0"
+                            className="my-2 text-gray-300 transition-colors duration-300 transform  hover:text-[#a756f7] md:mx-4 md:my-0"
                             href="#"
                         >
                             Contact
                         </a>
                         <a
-                            className="my-2 text-gray-300 transition-colors duration-300 transform  hover:text-blue-500  md:mx-4 md:my-0"
+                            className="my-2 text-gray-300 transition-colors duration-300 transform  hover:text-[#a756f7]  md:mx-4 md:my-0"
                             href="#"
                         >
                             About
