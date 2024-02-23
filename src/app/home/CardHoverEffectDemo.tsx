@@ -1,10 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
-import { HoverEffect } from "../components/ui/card-hover-effect";
+import { HoverEffect } from "../../components/ui/card-hover-effect";
 
 export default function CardHoverEffectDemo() {
   return (
     <div className="max-w-5xl mt-44 mx-auto px-8">
-       <h1 className="text-center my-12 text-3xl">Tech Stack I Work With</h1>
+      <h1 className="text-center my-12 text-3xl">Tech Stack I Work With</h1>
       <HoverEffect items={projects} />
     </div>
   );

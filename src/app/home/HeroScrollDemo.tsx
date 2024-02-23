@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { ContainerScroll } from "./../components/ui/container-scroll-animation";
+import { ContainerScroll } from "../../components/ui/container-scroll-animation";
 
 export default function HeroScrollDemo() {
   return (

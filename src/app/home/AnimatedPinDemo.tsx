@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { PinContainer } from "./../components/ui/3d-pin";
+import { PinContainer } from "../../components/ui/3d-pin";
 
 export default function AnimatedPinDemo() {
     return (
@@ -32,7 +32,7 @@ export default function AnimatedPinDemo() {
                     >
                         <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
                             <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-                               Web Development
+                                Web Development
                             </h3>
                             <div className="text-base !m-0 !p-0 font-normal">
                                 <span className="text-slate-500 ">
@@ -61,10 +61,10 @@ export default function AnimatedPinDemo() {
                     </PinContainer>
                 </div>
 
-               
 
 
-               
+
+
 
 
             </div>
