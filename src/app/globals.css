@@ -59,7 +59,6 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 0.75rem;
-  background-color: black;
   color: #fff;
   border-radius: 10rem;
   font-weight: 600;
@@ -77,19 +76,15 @@ body {
   height: 25px;
   position: relative;
   color: var(--clr);
-  background-color: #fff;
+  background-color: #000000;
   border-radius: 50%;
   display: grid;
   place-items: center;
   overflow: hidden;
 }
 
-.button:hover {
-  background-color: #000;
-}
-
 .button:hover .button__icon-wrapper {
-  color: #000;
+  color: #ffffff;
 }
 
 .button__icon-svg--copy {

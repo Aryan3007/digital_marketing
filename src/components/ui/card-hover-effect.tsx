@@ -10,8 +10,8 @@ export const HoverEffect = ({
 }: {
     items: {
         title: string;
-        description: string;
-        link: string;
+        logo: React.ReactNode;
+
     }[];
     className?: string;
 }) => {
@@ -25,9 +25,9 @@ export const HoverEffect = ({
             )}
         >
             {items.map((item, idx) => (
-                <Link
-                    href={item?.link}
-                    key={item?.link}
+                <div
+
+                    key={item?.title}
                     className="relative group  block p-2 h-full w-full"
                     onMouseEnter={() => setHoveredIndex(idx)}
                     onMouseLeave={() => setHoveredIndex(null)}
@@ -50,10 +50,12 @@ export const HoverEffect = ({
                         )}
                     </AnimatePresence>
                     <Card>
+                        <div className="flex gap-4">
+                        <CardDescription>{item.logo}</CardDescription>
                         <CardTitle>{item.title}</CardTitle>
-                        <CardDescription>{item.description}</CardDescription>
+                        </div>
                     </Card>
-                </Link>
+                </div>
             ))}
         </div>
     );
@@ -102,7 +104,7 @@ export const CardDescription = ({
     return (
         <p
             className={cn(
-                "mt-8 text-zinc-400 tracking-wide leading-relaxed text-sm",
+                " text-zinc-400 tracking-wide font-thin leading-relaxed text-sm",
                 className
             )}
         >

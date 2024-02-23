@@ -1,5 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
+import { FaCss3Alt, FaHtml5, FaNodeJs, FaReact } from "react-icons/fa";
 import { HoverEffect } from "../../components/ui/card-hover-effect";
+import { SiExpress, SiMongodb, SiNextdotjs, SiTailwindcss } from "react-icons/si";
+import { IoLogoFirebase, IoLogoJavascript } from "react-icons/io5";
+import { TbBrandFramerMotion, TbBrandReactNative } from "react-icons/tb";
 
 export default function CardHoverEffectDemo() {
   return (
@@ -11,39 +15,52 @@ export default function CardHoverEffectDemo() {
 }
 export const projects = [
   {
-    title: "Stripe",
-    description:
-      "A technology company that builds economic infrastructure for the internet.",
-    link: "https://stripe.com",
+    title: "Next JS",
+    logo: <SiNextdotjs size={60} color="#FFFFFF" />
   },
   {
-    title: "Netflix",
-    description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-    link: "https://netflix.com",
+    title: "React JS",
+    logo: <FaReact size={60} color="#64d5f4" />
   },
   {
-    title: "Google",
-    description:
-      "A multinational technology company that specializes in Internet-related services and products.",
-    link: "https://google.com",
+    title: "Node JS",
+    logo: <FaNodeJs size={60} color="#84c86e" />
   },
   {
-    title: "Meta",
-    description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
-    link: "https://meta.com",
+    title: "Express JS",
+    logo: <SiExpress size={60} color="#FFFFFF" />
   },
   {
-    title: "Amazon",
-    description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
-    link: "https://amazon.com",
+    title: "MongoDB",
+    logo: <SiMongodb size={60} color="#2F7301" />
   },
   {
-    title: "Microsoft",
-    description:
-      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-    link: "https://microsoft.com",
+    title: "Firebase",
+    logo: <IoLogoFirebase size={60} color="#FF8E43" />
+  },
+  {
+    title: "HTML",
+    logo: <FaHtml5 size={60} color="#B83737" />
+  },
+  {
+    title: "Tailwind",
+    logo: <SiTailwindcss size={60} color="#59BBF8" />
+  },
+  {
+    title: "CSS",
+    logo: <FaCss3Alt size={60} color="#2A86FF" />
+  },
+  {
+    title: "Javascript",
+    logo: <IoLogoJavascript size={60} color="#FFE137" />
+  },
+  {
+    title: "Framer Motion",
+    logo: <TbBrandFramerMotion size={60} color="#AA3FF7" />
+  },
+  {
+    title: "React Native",
+    logo: <TbBrandReactNative size={60} color="#64d5f4" />
   },
 ];
+
