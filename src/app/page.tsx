@@ -4,7 +4,7 @@
 import AnimatedPinDemo from "@/app/home/AnimatedPinDemo";
 import CardHoverEffectDemo from "@/app/home/CardHoverEffectDemo";
 // import  HeroScrollDemo  from "@/pages/HeroScrollDemo";
-// import { AnimatedTooltipPreview } from "@/pages/AnimatedTooltipPreview";
+import ThreeDCardDemo from "@/app/home/ThreeDcardDemo";
 // import HeroParallaxDemo from "@/pages/HeroParallaxDemo";
 // import  InfiniteMovingCardsDemo  from "@/pages/InfiniteMovingCardsDemo";
 import SparklesPreview from "@/app/home/SparklesPreview";
@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       {/* <Cursor/> */}
-      
+
       <SparklesPreview />
       {/* <HeroParallaxDemo /> */}
       <AnimatedPinDemo />
@@ -24,7 +24,12 @@ export default function Home() {
       <TypewriterEffectSmoothDemo />
       {/* <HeroScrollDemo/> */}
       {/* <AnimatedTooltipPreview/> */}
+      <div className="flex flex-wrap gap-6 justify-center">
 
+        <ThreeDCardDemo />
+        <ThreeDCardDemo />
+        <ThreeDCardDemo />
+      </div>
     </>
   );
 }

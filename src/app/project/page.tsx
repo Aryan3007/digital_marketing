@@ -1,7 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import { Tabs } from "./../../components/ui/tabs";
+import { Tabs } from "./../../components/ui/tabs"
+
 
 export default function Projects() {
   const tabs = [
@@ -48,6 +49,8 @@ export default function Projects() {
 
 const DummyContent = () => {
   return (
+    <>
+   
     <Image
       src="https://images.unsplash.com/photo-1682685797769-481b48222adf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       alt="dummy image"
@@ -55,5 +58,6 @@ const DummyContent = () => {
       height="1000"
       className="object-cover object-left-top h-[60%]  md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"
     />
+     </>
   );
 };

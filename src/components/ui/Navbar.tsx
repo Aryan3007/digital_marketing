@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
             x-data={{ isOpen: false }}
             className="relative bg-black h-full items-center shadow "
         >
-            <div className="container px-12 py-4 mx-auto md:flex md:justify-between items-center md:items-center">
+            <div className="container lg:px-12 px-3 py-4 mx-auto md:flex md:justify-between items-center md:items-center">
                 <div className="flex items-center justify-between">
                     <h1 className="text-3xl font-semibold text-white">{`Dev</>Hub`}</h1>
 
