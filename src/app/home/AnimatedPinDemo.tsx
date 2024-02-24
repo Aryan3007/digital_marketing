@@ -13,7 +13,7 @@ export default function AnimatedPinDemo() {
                         title="Animated UI Designes"
                         href="https://twitter.com/mannupaaji"
                     >
-                        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
+                        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-80 h-[20rem] ">
                             <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
                                 Animated UI
                             </h3>
@@ -30,7 +30,7 @@ export default function AnimatedPinDemo() {
                         title="Full Stack MERN Websites"
                         href="https://twitter.com/mannupaaji"
                     >
-                        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
+                        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-80 h-[20rem] ">
                             <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
                                 Web Development
                             </h3>
@@ -47,7 +47,7 @@ export default function AnimatedPinDemo() {
                         title="React native Apps"
                         href="https://twitter.com/mannupaaji"
                     >
-                        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
+                        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-80 h-[20rem] ">
                             <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
                                 App Development
                             </h3>
